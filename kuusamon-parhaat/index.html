@@ -1,177 +1,90 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
 
-    <title>Kuusamon parhaat – parhaat paikat ja palvelut kartalla | Paikat &amp; Tiedot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Löydä Kuusamon parhaat paikat, palvelut, ruokapaikat, nähtävyydet ja luontokohteet yhdeltä kartalta. Kuusamon parhaat vinkit matkailijoille ja paikallisille.">
+  <title>Kuusamon parhaat – oman alansa parhaat yritykset kartalla, jotka paikallisetkin tietävät | There can be only one</title>
 
-    <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="description" content="Kuusamon parhaat interaktiivisella kartalla. Tiedä mitä paikallisetkin tietävät. Mukana paikallisten suosittelemia parhaita yrityksiä lajissaan. Kun käyt Kuusamossa, tiedät heti mitä kannattaa käyttää etkä pety.">
 
-    <link rel="canonical" href="https://paikatjatiedot.fi/kuusamon-parhaat/">
+  <meta name="robots" content="index, follow">
 
-    <meta name="author" content="Paikat &amp; Tiedot">
+  <meta name="author" content="Paikat &amp; Tiedot">
 
-    <meta property="og:title" content="Kuusamon parhaat – parhaat paikat ja palvelut kartalla">
-    <meta property="og:description" content="Löydä Kuusamon parhaat paikat, palvelut ja kohteet yhdeltä kartalta.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://paikatjatiedot.fi/kuusamon-parhaat/">
-    <meta property="og:locale" content="fi_FI">
+  <link rel="canonical" href="https://www.paikatjatiedot.fi/kuusamon-parhaat">
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kuusamon parhaat – parhaat paikat kartalla">
-    <meta name="twitter:description" content="Löydä Kuusamon parhaat kohteet ja palvelut yhdeltä kartalta.">
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Kuusamon parhaat",
-        "url": "https://paikatjatiedot.fi/kuusamon-parhaat/",
-        "description": "Kuusamon parhaat paikat, palvelut ja kohteet yhdellä kartalla.",
-        "inLanguage": "fi",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "Paikat & Tiedot",
-            "url": "https://paikatjatiedot.fi/"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Paikat & Tiedot"
-        }
+  <!-- Open Graph -tiedot -->
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:locale" content="fi_FI">
+
+  <meta property="og:site_name" content="Paikat &amp; Tiedot">
+
+  <meta property="og:title" content="Kuusamon parhaat – oman alansa parhaat yritykset kartalla">
+
+  <meta property="og:description" content="Tiedä mitä paikallisetkin tietävät. Kuusamon parhaat interaktiivisella kartalla.">
+
+  <meta property="og:url" content="https://www.paikatjatiedot.fi/kuusamon-parhaat">
+
+  <meta property="og:image" content="https://www.paikatjatiedot.fi/kuusamon-parhaat/Kuusamon%20parhaat%20-%20Paikat%20ja%20Tiedot.png">
+
+  <meta property="og:image:alt" content="Kuusamon parhaat – Paikat &amp; Tiedot">
+
+  <meta property="og:image:type" content="image/png">
+
+
+  <!-- Twitter / X -esikatselu -->
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title" content="Kuusamon parhaat – oman alansa parhaat yritykset kartalla">
+
+  <meta name="twitter:description" content="Tiedä mitä paikallisetkin tietävät. Kuusamon parhaat interaktiivisella kartalla.">
+
+  <meta name="twitter:image" content="https://www.paikatjatiedot.fi/kuusamon-parhaat/Kuusamon%20parhaat%20-%20Paikat%20ja%20Tiedot.png">
+
+  <meta name="twitter:image:alt" content="Kuusamon parhaat – Paikat &amp; Tiedot">
+
+
+  <style>
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #ffffff;
     }
-    </script>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      height: 100vh;
+      height: 100dvh;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
 
-        html {
-            margin: 0;
-            padding: 0;
-            scroll-behavior: smooth;
-        }
+  </style>
 
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #222;
-            background: #ffffff;
-            line-height: 1.6;
-        }
-
-        header {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 40px 20px 25px;
-        }
-
-        h1 {
-            margin: 0 0 15px;
-            font-size: 42px;
-            line-height: 1.15;
-        }
-
-        h2 {
-            margin-top: 35px;
-            margin-bottom: 12px;
-            font-size: 28px;
-        }
-
-        p {
-            margin: 0 0 15px;
-        }
-
-        main {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 20px 50px;
-        }
-
-        .intro {
-            font-size: 19px;
-            max-width: 900px;
-        }
-
-        .map {
-            width: 100%;
-            height: 700px;
-            border: 0;
-            margin-top: 25px;
-            display: block;
-        }
-
-        .seo-content {
-            max-width: 900px;
-        }
-
-        @media (max-width: 700px) {
-            header {
-                padding: 25px 15px 15px;
-            }
-
-            main {
-                padding: 0 15px 35px;
-            }
-
-            h1 {
-                font-size: 32px;
-            }
-
-            h2 {
-                font-size: 24px;
-            }
-
-            .intro {
-                font-size: 17px;
-            }
-
-            .map {
-                height: 600px;
-            }
-        }
-    </style>
 </head>
+
 
 <body>
 
-
-<main>
-
-    <section class="seo-content">
-
-        <h2>Kuusamon parhaat - paikallisten vinkit</h2>
-
-        <p>
-            Kuusamon parhaat -kartta kokoaa yhteen paikkoja ja palveluita,
-            jotka kannattaa tietää Kuusamossa. Kartalta voit löytää
-            paikallisia palveluita ja matkailukohteita sekä suunnitella
-            helposti omaa vierailuasi Kuusamossa.
-        </p>
-
-        
-
-        <h2>Kuusamon parhaat kartalla</h2>
-
-        <p>
-            Tutustu karttaan ja löydä sinulle sopivat kohteet ja
-            palvelut Kuusamossa.
-        </p>
-
-    </section>
-
-    <iframe
-        class="map"
-        title="Kuusamon parhaat kartta"
-        allowfullscreen
-        src="https://arcg.is/1L0L1f4">
-    </iframe>
-
-</main>
+  <iframe
+    src="https://arcg.is/efyOO"
+    title="Kuusamon parhaat – Tiedä mitä paikallisetkin tietävät suoraan interaktiiviselta kartalta"
+    allowfullscreen>
+  </iframe>
 
 </body>
 </html>
